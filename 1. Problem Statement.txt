@@ -1,0 +1,45 @@
+Assignment (19/03/2026)
+
+Assignment Name : Mini Project Proposal
+Description : Submit a 1-page proposal with problem, dataset, algorithm, expected output.
+
+1. Problem Statement
+
+Businesses often struggle to understand different types of customers and their spending patterns. Without proper customer grouping, companies cannot provide personalized offers or improve marketing strategies. This project aims to solve this problem by using machine learning clustering techniques to divide customers into meaningful groups based on their purchasing behavior.
+
+2. Dataset
+
+The dataset used for this project is the Mall Customer Segmentation Dataset.
+Dataset Features:
+
+Customer ID
+Gender
+Age
+Annual Income (k$)
+Spending Score (1–100)
+This dataset helps analyze customer behavior and identify different customer categories based on income and spending habits.
+
+3. Algorithm Used
+
+K-Means Clustering Algorithm
+K-Means is an unsupervised machine learning algorithm used to group similar data points into clusters.
+
+Steps involved:
+
+1.Load the dataset
+2.Select relevant features (Income and Spending Score)
+3.Apply K-Means clustering
+4.Divide customers into groups
+5.Visualize clusters using scatter plots
+
+4. Expected Output
+
+The expected output of this project includes:
+
+Customers divided into different groups (clusters)
+Visualization of customer segments using graphs
+Identification of customer categories such as:
+High Income – High Spending
+High Income – Low Spending
+Low Income – High Spending
+Low Income – Low Spending
