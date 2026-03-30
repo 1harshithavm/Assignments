@@ -1,0 +1,28 @@
+Assignment (20/03/2026)
+
+Assignment Name : Text Challenges
+Description :Collect 20 messy sentences and identify slang, emojis, typos; explain preprocessing needed.
+
+
+| No | Messy Sentence                   | Issues Found (Slang/Emoji/Typos)         | Preprocessing Needed                                       |
+| -- | -------------------------------- | ---------------------------------------- | ---------------------------------------------------------- |
+| 1  | Heyyy brooo how r uuuu 😄        | Repeated letters, slang "r", emoji       | Remove extra letters, expand slang (r → are), remove emoji |
+| 2  | I canttt belive this happnd      | Typos "canttt", "belive", "happnd"       | Spell correction                                           |
+| 3  | LOL this movie wasss sooo gud 😂 | Slang "LOL", typos, emoji                | Replace slang, correct spelling, remove emoji              |
+| 4  | Gud mrng frnds!!!                | Short forms, extra punctuation           | Expand words (Gud → Good), remove extra punctuation        |
+| 5  | Thx 4 ur help 👍                 | Slang "Thx", number slang "4", emoji     | Expand slang (Thx → Thanks, 4 → for)                       |
+| 6  | I m goin 2 clg nw                | Short forms, number slang                | Expand (m → am, 2 → to, clg → college)                     |
+| 7  | Wat r u doin???                  | Slang "Wat", "r"                         | Replace slang with correct words                           |
+| 8  | OMG!!! this iz amazinggg         | Slang "OMG", typo "iz", repeated letters | Replace slang, correct spelling                            |
+| 9  | Plzzz send d file asap           | Slang "Plzzz", "d", "asap"               | Normalize slang                                            |
+| 10 | I luvvv pizzaaa 🍕               | Repeated letters, emoji                  | Remove repeated letters, remove emoji                      |
+| 11 | hv u compltd d task              | Missing vowels, short forms              | Expand abbreviations                                       |
+| 12 | soooo tireddd today              | Repeated letters                         | Normalize repeated characters                              |
+| 13 | idk wat happnd here 🤔           | Slang "idk", emoji                       | Expand slang, remove emoji                                 |
+| 14 | This is gr8 work                 | Number slang "gr8"                       | Replace number slang (gr8 → great)                         |
+| 15 | im lateeee sry                   | Missing capitalization, repeated letters | Correct capitalization, normalize letters                  |
+| 16 | cn u hlp me wid dis              | Missing vowels                           | Spell correction                                           |
+| 17 | yessss!!! doneeee                | Repeated letters                         | Normalize letters                                          |
+| 18 | haha thats sooo funny 😂😂       | Repeated letters, emojis                 | Remove emojis, normalize letters                           |
+| 19 | meet me @ 5pm                    | Symbol usage                             | Replace @ → at                                             |
+| 20 | plz rply soon                    | Short forms                              | Expand slang (plz → please, rply → reply)                  |
